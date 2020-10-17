@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.snake {
+    width: 40%;
+    height: 40%;
+    margin: 10rem auto;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    border-radius: .3rem;
+    padding: 20px;
+}
+
+.snake20 {
+    margin: auto 9em;
+    height: 13px;
+    width: 13px;
+    border-radius: 10rem;
+    background-color: white;
+    
+}
+
+.snake__1 {
+    animation: movement 1.0s ease-in-out infinite;
+}
+
+.snake__2 {
+    animation: movement 1.01s ease-in-out infinite;
+}
+
+.snake__3 {
+    animation: movement 1.02s ease-in-out infinite;
+}
+
+.snake__4 {
+    animation: movement 1.03s ease-in-out infinite;
+}
+
+.snake__5 {
+    animation: movement 1.04s ease-in-out infinite;
+}
+
+.snake__6 {
+    animation: movement 1.05s ease-in-out infinite;
+}
+
+.snake__7 {
+    animation: movement 1.06s ease-in-out infinite;
+}
+
+.snake__8 {
+    animation: movement 1.07s ease-in-out infinite;
+}
+
+.snake__9 {
+    animation: movement 1.08s ease-in-out infinite;
+}
+
+.snake__10 {
+    animation: movement 1.09s ease-in-out infinite;
+}
+
+.snake__11 {
+    animation: movement 1.10s ease-in-out infinite;
+}
+
+.snake__12 {
+    animation: movement 1.11s ease-in-out infinite;
+}
+
+.snake__13 {
+    animation: movement 1.12s ease-in-out infinite;
+}
+
+.snake__14 {
+    animation: movement 1.13s ease-in-out infinite;
+}
+
+.snake__15 {
+    animation: movement 1.14s ease-in-out infinite;
+}
+
+.snake__16 {
+    animation: movement 1.15s ease-in-out infinite;
+}
+
+.snake__17 {
+    animation: movement 1.16s ease-in-out infinite;
+}
+
+.snake__18 {
+    animation: movement 1.17s ease-in-out infinite;
+}
+
+.snake__19 {
+    animation: movement 1.18s ease-in-out infinite;
+}
+
+.snake__20 {
+    animation: movement 1.19s ease-in-out infinite;
+}
+
+
+@keyframes movement {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    
+    50% {
+        transform: translateX(6em);
+    }
+}
